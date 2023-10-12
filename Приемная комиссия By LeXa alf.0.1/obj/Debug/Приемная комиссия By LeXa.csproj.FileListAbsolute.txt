@@ -1,0 +1,74 @@
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.exe.config
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.exe
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.pdb
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.SuggestedBindingRedirects.cache
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.exe
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.pdb
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+D:\!!диплом и работы\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.exe.config
+D:\!!диплом и работы\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.exe
+D:\!!диплом и работы\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.pdb
+D:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+D:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+D:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+D:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+D:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+D:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+D:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.exe
+D:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.pdb
+I:\!!диплом и работы\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.exe.config
+I:\!!диплом и работы\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.exe
+I:\!!диплом и работы\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.pdb
+I:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+I:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.SuggestedBindingRedirects.cache
+I:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+I:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+I:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+I:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.sred_ball.resources
+I:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+I:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+I:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.exe
+I:\!!диплом и работы\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.pdb
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.exe.config
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.exe
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\bin\Debug\Приемная комиссия By LeXa.pdb
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.sred_ball.resources
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.exe
+C:\Users\Harry\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная комиссия By LeXa.pdb
+C:\Users\LeXa\Desktop\Приемная комиссия By LeXa\obj\Debug\Приемная_комиссия_By_LeXa.sred_ball.resources
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe.config
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.pdb
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.sred_ball.resources
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.exe
+E:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.pdb
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe.config
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.pdb
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.SuggestedBindingRedirects.cache
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.sred_ball.resources
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.exe
+I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.pdb
