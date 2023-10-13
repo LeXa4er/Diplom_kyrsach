@@ -24,7 +24,7 @@ namespace Приемная_комиссия_By_LeXa
             string password = passwordTextBox.Text;
 
             // Подключение к базе данных
-            string connectionString = "Data Source=DESKTOP-V7FB61F\\SQLEXPRESS;Initial Catalog=RKRIPT;Integrated Security=True";
+            string connectionString = "Data Source=Le;Initial Catalog=RKRIPT;Integrated Security=True";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 // SQL-запрос для проверки логина и пароля в таблице user

@@ -50,14 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="abitura.cs" />
     <Compile Include="autorithation.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="autorithation.Designer.cs">
       <DependentUpon>autorithation.cs</DependentUpon>
     </Compile>
-    <Compile Include="doki.cs" />
     <Compile Include="glav_forms.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,8 +69,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RKRIPTDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="rodaki.cs" />
-    <Compile Include="speshal.cs" />
+    <Compile Include="special.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="special.Designer.cs">
+      <DependentUpon>special.cs</DependentUpon>
+    </Compile>
     <Compile Include="sred_ball.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +96,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="special.resx">
+      <DependentUpon>special.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="sred_ball.resx">
       <DependentUpon>sred_ball.cs</DependentUpon>
     </EmbeddedResource>
