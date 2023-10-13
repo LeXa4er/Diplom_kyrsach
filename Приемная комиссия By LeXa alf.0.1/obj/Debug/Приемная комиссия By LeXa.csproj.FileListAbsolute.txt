@@ -72,3 +72,15 @@ I:\!!диплом и работы\Приемная комиссия By LeXa alf.
 I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
 I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.exe
 I:\!!диплом и работы\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.pdb
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.sred_ball.resources
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.exe
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.pdb
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe.config
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe
+D:\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.pdb

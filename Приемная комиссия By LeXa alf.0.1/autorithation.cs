@@ -20,29 +20,40 @@ namespace Приемная_комиссия_By_LeXa
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection slqconnection = new SqlConnection($"Data Source=LEXA;Initial Catalog=RKRIPT;Integrated Security=True");
+            string login = loginTextBox.Text;
+            string password = passwordTextBox.Text;
 
-            string query = $"Select * from [RKRIPT] where login_user = '" + textBox1.Text.Trim() + "' and passwd_user = '" + textBox2.Text.Trim() + "'";
-
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, slqconnection);
-
-            DataTable dataTable = new DataTable();
-
-            sqlDataAdapter.Fill(dataTable);
-
-            if (dataTable.Rows.Count == 1)
+            // Подключение к базе данных
+            string connectionString = "Data Source=DESKTOP-V7FB61F\\SQLEXPRESS;Initial Catalog=RKRIPT;Integrated Security=True";
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
-              
-            this.Hide();
-            glav_forms glavForms = new glav_forms(this); // Передача текущей формы в конструктор glav_forms
-            glavForms.Show();
-            
+                // SQL-запрос для проверки логина и пароля в таблице user
+                string query = "SELECT COUNT(*) FROM [user] WHERE login = @login AND passwd = @password";
+
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@login", login);
+                    command.Parameters.AddWithValue("@password", password);
+
+                    connection.Open();
+                    int result = (int)command.ExecuteScalar(); // Выполнение запроса и получение результата
+
+                    if (result > 0)
+                    {
+                        // Если совпадение найдено, авторизация успешна
+                        MessageBox.Show("Авторизация успешна!");
+                        this.Hide();
+                        glav_forms glavForms = new glav_forms(this); // Передача текущей формы в конструктор glav_forms
+                        glavForms.Show();
+                    }
+                    else
+                    {
+                        // Если нет совпадений, выводим сообщение об ошибке
+                        MessageBox.Show("Неверный логин или пароль. Пожалуйста, попробуйте снова.");
+                    }
+                }
             }
-            else
-            {
-                MessageBox.Show("Проверьте введённые данные!", "Ошибка");
-            }
-            
+        }
         }
     }
-}
