@@ -33,6 +33,9 @@ namespace Приемная_комиссия_By_LeXa
             AverageScoreTextBox.Text = receivedAverageScore.ToString();
         }
 
+
+        //rjvrtikdfghjkl;
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
