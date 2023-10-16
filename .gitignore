@@ -231,3 +231,6 @@ _Pvt_Extensions
 .fake/
 Приемная комиссия By LeXa alf.0.1/.vs/Приемная комиссия By LeXa/v17/.suo
 *.cache
+*.vsidx
+*.vsidx
+*.cache
