@@ -229,11 +229,5 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
-*.vsidx
-*.vsidx
-*.vsidx
-*.vsidx
-*.vsidx
-*.vsidx
-*.cache
 Приемная комиссия By LeXa alf.0.1/.vs/Приемная комиссия By LeXa/v17/.suo
+*.cache
