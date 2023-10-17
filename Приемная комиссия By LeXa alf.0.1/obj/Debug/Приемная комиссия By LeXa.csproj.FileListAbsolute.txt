@@ -96,3 +96,19 @@ C:\Users\Home-PC\Desktop\Diplom_kyrsach-main\Приемная комиссия B
 C:\Users\Home-PC\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
 C:\Users\Home-PC\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.exe
 C:\Users\Home-PC\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.pdb
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.special.resources
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.sred_ball.resources
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.exe
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.pdb
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe.config
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.pdb
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.dll
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.xml
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CopyComplete

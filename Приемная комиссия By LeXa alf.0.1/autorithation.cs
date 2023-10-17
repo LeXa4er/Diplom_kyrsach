@@ -17,14 +17,15 @@ namespace Приемная_комиссия_By_LeXa
         {
             InitializeComponent();
         }
-
+        //"Data Source=Le;Initial Catalog=RKRIPT;Integrated Security=True" - сохронил что бы удобно было сервер поменять
+       private string connectionString = "Data Source=DESKTOP-V7FB61F\\SQLEXPRESS;Initial Catalog=RKRIPT;Integrated Security=True";
         private void button1_Click(object sender, EventArgs e)
         {
             string login = loginTextBox.Text;
             string password = passwordTextBox.Text;
 
             // Подключение к базе данных
-            string connectionString = "Data Source=Le;Initial Catalog=RKRIPT;Integrated Security=True";
+           
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 // SQL-запрос для проверки логина и пароля в таблице user
@@ -44,7 +45,7 @@ namespace Приемная_комиссия_By_LeXa
                         // Если совпадение найдено, авторизация успешна
                         MessageBox.Show("Авторизация успешна!");
                         this.Hide();
-                        glav_forms glavForms = new glav_forms(this); // Передача текущей формы в конструктор glav_forms
+                        glav_forms glavForms = new glav_forms(); // Передача текущей формы в конструктор glav_forms
                         glavForms.Show();
                     }
                     else

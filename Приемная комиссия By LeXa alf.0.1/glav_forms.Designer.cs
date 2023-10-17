@@ -32,7 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.FullNameTextBox = new System.Windows.Forms.TextBox();
+            this.txtFIO = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -52,7 +52,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.AverageScoreTextBox = new System.Windows.Forms.TextBox();
+            this.txtAverageScore = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
@@ -120,9 +120,9 @@
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBoxSpecialty1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxSpecialty2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxSpecialty3 = new System.Windows.Forms.ComboBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.SVTFirstCBox = new System.Windows.Forms.ComboBox();
@@ -169,7 +169,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label3, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.label4, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.FullNameTextBox, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.txtFIO, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.textBox2, 1, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 18);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -206,12 +206,12 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Род.п";
             // 
-            // FullNameTextBox
+            // txtFIO
             // 
-            this.FullNameTextBox.Location = new System.Drawing.Point(91, 3);
-            this.FullNameTextBox.Name = "FullNameTextBox";
-            this.FullNameTextBox.Size = new System.Drawing.Size(450, 20);
-            this.FullNameTextBox.TabIndex = 1;
+            this.txtFIO.Location = new System.Drawing.Point(91, 3);
+            this.txtFIO.Name = "txtFIO";
+            this.txtFIO.Size = new System.Drawing.Size(450, 20);
+            this.txtFIO.TabIndex = 1;
             // 
             // textBox2
             // 
@@ -403,23 +403,23 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "Подсчитать средний балл";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // AverageScoreTextBox
+            // txtAverageScore
             // 
-            this.AverageScoreTextBox.Location = new System.Drawing.Point(200, 3);
-            this.AverageScoreTextBox.Name = "AverageScoreTextBox";
-            this.AverageScoreTextBox.ReadOnly = true;
-            this.AverageScoreTextBox.Size = new System.Drawing.Size(73, 20);
-            this.AverageScoreTextBox.TabIndex = 8;
+            this.txtAverageScore.Location = new System.Drawing.Point(200, 3);
+            this.txtAverageScore.Name = "txtAverageScore";
+            this.txtAverageScore.ReadOnly = true;
+            this.txtAverageScore.Size = new System.Drawing.Size(73, 20);
+            this.txtAverageScore.TabIndex = 8;
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(15, 610);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(277, 23);
+            this.button2.Size = new System.Drawing.Size(458, 23);
             this.button2.TabIndex = 9;
-            this.button2.Text = "Открыть файл стреднего бала и Фио студента";
+            this.button2.Text = "Сохронить данные о студенте и открыть документ со средним балом ";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -617,7 +617,7 @@
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel9.Controls.Add(this.button1, 0, 0);
-            this.tableLayoutPanel9.Controls.Add(this.AverageScoreTextBox, 1, 0);
+            this.tableLayoutPanel9.Controls.Add(this.txtAverageScore, 1, 0);
             this.tableLayoutPanel9.Controls.Add(this.label22, 0, 1);
             this.tableLayoutPanel9.Controls.Add(this.textBox15, 1, 1);
             this.tableLayoutPanel9.Location = new System.Drawing.Point(5, 441);
@@ -674,7 +674,7 @@
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 45F));
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 112F));
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135F));
             this.tableLayoutPanel11.Controls.Add(this.label14, 0, 0);
             this.tableLayoutPanel11.Controls.Add(this.label11, 4, 0);
             this.tableLayoutPanel11.Controls.Add(this.label23, 2, 0);
@@ -701,7 +701,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(421, 0);
+            this.label11.Location = new System.Drawing.Point(415, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(39, 13);
             this.label11.TabIndex = 0;
@@ -710,7 +710,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(264, 0);
+            this.label23.Location = new System.Drawing.Point(258, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(37, 13);
             this.label23.TabIndex = 2;
@@ -718,14 +718,14 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(309, 3);
+            this.textBox7.Location = new System.Drawing.Point(303, 3);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 3;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(471, 3);
+            this.textBox8.Location = new System.Drawing.Point(465, 3);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 20);
             this.textBox8.TabIndex = 4;
@@ -733,7 +733,7 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(107, 3);
+            this.comboBox2.Location = new System.Drawing.Point(105, 3);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
             this.comboBox2.TabIndex = 5;
@@ -752,7 +752,6 @@
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel10.Size = new System.Drawing.Size(598, 30);
             this.tableLayoutPanel10.TabIndex = 20;
-            this.tableLayoutPanel10.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel10_Paint);
             // 
             // textBox1
             // 
@@ -1109,9 +1108,9 @@
             this.tableLayoutPanel12.Controls.Add(this.label27, 0, 0);
             this.tableLayoutPanel12.Controls.Add(this.label28, 0, 1);
             this.tableLayoutPanel12.Controls.Add(this.label29, 0, 2);
-            this.tableLayoutPanel12.Controls.Add(this.comboBox5, 1, 0);
-            this.tableLayoutPanel12.Controls.Add(this.comboBox6, 1, 1);
-            this.tableLayoutPanel12.Controls.Add(this.comboBox7, 1, 2);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxSpecialty1, 1, 0);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxSpecialty2, 1, 1);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxSpecialty3, 1, 2);
             this.tableLayoutPanel12.Controls.Add(this.checkBox1, 2, 1);
             this.tableLayoutPanel12.Controls.Add(this.checkBox3, 2, 2);
             this.tableLayoutPanel12.Location = new System.Drawing.Point(21, 78);
@@ -1150,29 +1149,29 @@
             this.label29.TabIndex = 2;
             this.label29.Text = "Заявление №2";
             // 
-            // comboBox5
+            // comboBoxSpecialty1
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(91, 3);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(192, 21);
-            this.comboBox5.TabIndex = 3;
+            this.comboBoxSpecialty1.FormattingEnabled = true;
+            this.comboBoxSpecialty1.Location = new System.Drawing.Point(91, 3);
+            this.comboBoxSpecialty1.Name = "comboBoxSpecialty1";
+            this.comboBoxSpecialty1.Size = new System.Drawing.Size(192, 21);
+            this.comboBoxSpecialty1.TabIndex = 3;
             // 
-            // comboBox6
+            // comboBoxSpecialty2
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(91, 30);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(192, 21);
-            this.comboBox6.TabIndex = 4;
+            this.comboBoxSpecialty2.FormattingEnabled = true;
+            this.comboBoxSpecialty2.Location = new System.Drawing.Point(91, 30);
+            this.comboBoxSpecialty2.Name = "comboBoxSpecialty2";
+            this.comboBoxSpecialty2.Size = new System.Drawing.Size(192, 21);
+            this.comboBoxSpecialty2.TabIndex = 4;
             // 
-            // comboBox7
+            // comboBoxSpecialty3
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(91, 57);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(192, 21);
-            this.comboBox7.TabIndex = 5;
+            this.comboBoxSpecialty3.FormattingEnabled = true;
+            this.comboBoxSpecialty3.Location = new System.Drawing.Point(91, 57);
+            this.comboBoxSpecialty3.Name = "comboBoxSpecialty3";
+            this.comboBoxSpecialty3.Size = new System.Drawing.Size(192, 21);
+            this.comboBoxSpecialty3.TabIndex = 5;
             // 
             // checkBox1
             // 
@@ -1255,7 +1254,6 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(130, 21);
             this.comboBox3.TabIndex = 2;
-            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // label25
             // 
@@ -1265,7 +1263,6 @@
             this.label25.Size = new System.Drawing.Size(171, 13);
             this.label25.TabIndex = 1;
             this.label25.Text = "форму обучения для получения  ";
-            this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
             // label24
             // 
@@ -1278,16 +1275,17 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(63, 640);
+            this.button3.Location = new System.Drawing.Point(16, 639);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(147, 23);
             this.button3.TabIndex = 21;
-            this.button3.Text = "button3";
+            this.button3.Text = "Создать специальность";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(144, 639);
+            this.button4.Location = new System.Drawing.Point(265, 639);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 22;
@@ -1296,7 +1294,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(227, 639);
+            this.button5.Location = new System.Drawing.Point(346, 639);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 23;
@@ -1305,7 +1303,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(298, 611);
+            this.button6.Location = new System.Drawing.Point(427, 639);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 24;
@@ -1314,9 +1312,10 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(355, 639);
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button7.Location = new System.Drawing.Point(1133, 610);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.Size = new System.Drawing.Size(119, 52);
             this.button7.TabIndex = 25;
             this.button7.Text = "Выход";
             this.button7.UseVisualStyleBackColor = true;
@@ -1338,7 +1337,6 @@
             this.Name = "glav_forms";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Приемная комиссия By LeXa";
-            this.Load += new System.EventHandler(this.glav_forms_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -1389,7 +1387,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox FullNameTextBox;
+        private System.Windows.Forms.TextBox txtFIO;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox1;
@@ -1407,7 +1405,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox AverageScoreTextBox;
+        private System.Windows.Forms.TextBox txtAverageScore;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
@@ -1453,9 +1451,9 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox comboBoxSpecialty1;
+        private System.Windows.Forms.ComboBox comboBoxSpecialty2;
+        private System.Windows.Forms.ComboBox comboBoxSpecialty3;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.TabControl tabControl1;

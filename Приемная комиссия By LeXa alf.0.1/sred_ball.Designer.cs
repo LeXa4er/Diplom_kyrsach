@@ -48,25 +48,25 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.RussianTextBox = new System.Windows.Forms.TextBox();
-            this.LiteratureTextBox = new System.Windows.Forms.TextBox();
-            this.NativeLiteratureTextBox = new System.Windows.Forms.TextBox();
-            this.NativeLiteratureText = new System.Windows.Forms.TextBox();
-            this.ForeignLanguageTextBox = new System.Windows.Forms.TextBox();
-            this.HistoryTextBox = new System.Windows.Forms.TextBox();
-            this.SocialStudiesTextBox = new System.Windows.Forms.TextBox();
-            this.GeographyTextBox = new System.Windows.Forms.TextBox();
-            this.AlgebraTextBox = new System.Windows.Forms.TextBox();
-            this.LifeSafetyTextBox = new System.Windows.Forms.TextBox();
-            this.GeometryTextBox = new System.Windows.Forms.TextBox();
-            this.ComputerScienceTextBox = new System.Windows.Forms.TextBox();
-            this.PhysicsTextBox = new System.Windows.Forms.TextBox();
-            this.BiologyTextBox = new System.Windows.Forms.TextBox();
-            this.ChemistryTextBox = new System.Windows.Forms.TextBox();
-            this.VisualArtsTextBox = new System.Windows.Forms.TextBox();
-            this.MusicTextBox = new System.Windows.Forms.TextBox();
-            this.TechnologyTextBox = new System.Windows.Forms.TextBox();
-            this.PhysicalEducationTextBox = new System.Windows.Forms.TextBox();
+            this.txtRusskii = new System.Windows.Forms.TextBox();
+            this.txtLiteratura = new System.Windows.Forms.TextBox();
+            this.txtRodnoiYazik = new System.Windows.Forms.TextBox();
+            this.txtRodnoiLiteratura = new System.Windows.Forms.TextBox();
+            this.txtInostranniiYazik = new System.Windows.Forms.TextBox();
+            this.txtIstoria = new System.Windows.Forms.TextBox();
+            this.txtObchestvo = new System.Windows.Forms.TextBox();
+            this.txtGeografia = new System.Windows.Forms.TextBox();
+            this.txtAlgebra = new System.Windows.Forms.TextBox();
+            this.txtOBZ = new System.Windows.Forms.TextBox();
+            this.txtGeometria = new System.Windows.Forms.TextBox();
+            this.txtInformatika = new System.Windows.Forms.TextBox();
+            this.txtFizika = new System.Windows.Forms.TextBox();
+            this.txtBiologia = new System.Windows.Forms.TextBox();
+            this.txtHimia = new System.Windows.Forms.TextBox();
+            this.txtIzobrazitelnoeIskusstvo = new System.Windows.Forms.TextBox();
+            this.txtMuzyka = new System.Windows.Forms.TextBox();
+            this.txtTekhnologia = new System.Windows.Forms.TextBox();
+            this.txtFizicheskayaKultura = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -95,25 +95,25 @@
             this.tableLayoutPanel1.Controls.Add(this.label17, 0, 16);
             this.tableLayoutPanel1.Controls.Add(this.label18, 0, 17);
             this.tableLayoutPanel1.Controls.Add(this.label19, 0, 18);
-            this.tableLayoutPanel1.Controls.Add(this.RussianTextBox, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.LiteratureTextBox, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.NativeLiteratureTextBox, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.NativeLiteratureText, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.ForeignLanguageTextBox, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.HistoryTextBox, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.SocialStudiesTextBox, 1, 6);
-            this.tableLayoutPanel1.Controls.Add(this.GeographyTextBox, 1, 7);
-            this.tableLayoutPanel1.Controls.Add(this.AlgebraTextBox, 1, 8);
-            this.tableLayoutPanel1.Controls.Add(this.LifeSafetyTextBox, 1, 18);
-            this.tableLayoutPanel1.Controls.Add(this.GeometryTextBox, 1, 9);
-            this.tableLayoutPanel1.Controls.Add(this.ComputerScienceTextBox, 1, 10);
-            this.tableLayoutPanel1.Controls.Add(this.PhysicsTextBox, 1, 11);
-            this.tableLayoutPanel1.Controls.Add(this.BiologyTextBox, 1, 12);
-            this.tableLayoutPanel1.Controls.Add(this.ChemistryTextBox, 1, 13);
-            this.tableLayoutPanel1.Controls.Add(this.VisualArtsTextBox, 1, 14);
-            this.tableLayoutPanel1.Controls.Add(this.MusicTextBox, 1, 15);
-            this.tableLayoutPanel1.Controls.Add(this.TechnologyTextBox, 1, 16);
-            this.tableLayoutPanel1.Controls.Add(this.PhysicalEducationTextBox, 1, 17);
+            this.tableLayoutPanel1.Controls.Add(this.txtRusskii, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.txtLiteratura, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txtRodnoiYazik, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txtRodnoiLiteratura, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txtInostranniiYazik, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.txtIstoria, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.txtObchestvo, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.txtGeografia, 1, 7);
+            this.tableLayoutPanel1.Controls.Add(this.txtAlgebra, 1, 8);
+            this.tableLayoutPanel1.Controls.Add(this.txtOBZ, 1, 18);
+            this.tableLayoutPanel1.Controls.Add(this.txtGeometria, 1, 9);
+            this.tableLayoutPanel1.Controls.Add(this.txtInformatika, 1, 10);
+            this.tableLayoutPanel1.Controls.Add(this.txtFizika, 1, 11);
+            this.tableLayoutPanel1.Controls.Add(this.txtBiologia, 1, 12);
+            this.tableLayoutPanel1.Controls.Add(this.txtHimia, 1, 13);
+            this.tableLayoutPanel1.Controls.Add(this.txtIzobrazitelnoeIskusstvo, 1, 14);
+            this.tableLayoutPanel1.Controls.Add(this.txtMuzyka, 1, 15);
+            this.tableLayoutPanel1.Controls.Add(this.txtTekhnologia, 1, 16);
+            this.tableLayoutPanel1.Controls.Add(this.txtFizicheskayaKultura, 1, 17);
             this.tableLayoutPanel1.Controls.Add(this.button1, 1, 19);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -313,139 +313,139 @@
             this.label19.TabIndex = 18;
             this.label19.Text = "Основы безопасности жизнедеятельности";
             // 
-            // RussianTextBox
+            // txtRusskii
             // 
-            this.RussianTextBox.Location = new System.Drawing.Point(258, 3);
-            this.RussianTextBox.Name = "RussianTextBox";
-            this.RussianTextBox.Size = new System.Drawing.Size(100, 20);
-            this.RussianTextBox.TabIndex = 1;
+            this.txtRusskii.Location = new System.Drawing.Point(258, 3);
+            this.txtRusskii.Name = "txtRusskii";
+            this.txtRusskii.Size = new System.Drawing.Size(100, 20);
+            this.txtRusskii.TabIndex = 1;
             // 
-            // LiteratureTextBox
+            // txtLiteratura
             // 
-            this.LiteratureTextBox.Location = new System.Drawing.Point(258, 29);
-            this.LiteratureTextBox.Name = "LiteratureTextBox";
-            this.LiteratureTextBox.Size = new System.Drawing.Size(100, 20);
-            this.LiteratureTextBox.TabIndex = 2;
+            this.txtLiteratura.Location = new System.Drawing.Point(258, 29);
+            this.txtLiteratura.Name = "txtLiteratura";
+            this.txtLiteratura.Size = new System.Drawing.Size(100, 20);
+            this.txtLiteratura.TabIndex = 2;
             // 
-            // NativeLiteratureTextBox
+            // txtRodnoiYazik
             // 
-            this.NativeLiteratureTextBox.Location = new System.Drawing.Point(258, 55);
-            this.NativeLiteratureTextBox.Name = "NativeLiteratureTextBox";
-            this.NativeLiteratureTextBox.Size = new System.Drawing.Size(100, 20);
-            this.NativeLiteratureTextBox.TabIndex = 3;
+            this.txtRodnoiYazik.Location = new System.Drawing.Point(258, 55);
+            this.txtRodnoiYazik.Name = "txtRodnoiYazik";
+            this.txtRodnoiYazik.Size = new System.Drawing.Size(100, 20);
+            this.txtRodnoiYazik.TabIndex = 3;
             // 
-            // NativeLiteratureText
+            // txtRodnoiLiteratura
             // 
-            this.NativeLiteratureText.Location = new System.Drawing.Point(258, 81);
-            this.NativeLiteratureText.Name = "NativeLiteratureText";
-            this.NativeLiteratureText.Size = new System.Drawing.Size(100, 20);
-            this.NativeLiteratureText.TabIndex = 4;
+            this.txtRodnoiLiteratura.Location = new System.Drawing.Point(258, 81);
+            this.txtRodnoiLiteratura.Name = "txtRodnoiLiteratura";
+            this.txtRodnoiLiteratura.Size = new System.Drawing.Size(100, 20);
+            this.txtRodnoiLiteratura.TabIndex = 4;
             // 
-            // ForeignLanguageTextBox
+            // txtInostranniiYazik
             // 
-            this.ForeignLanguageTextBox.Location = new System.Drawing.Point(258, 107);
-            this.ForeignLanguageTextBox.Name = "ForeignLanguageTextBox";
-            this.ForeignLanguageTextBox.Size = new System.Drawing.Size(100, 20);
-            this.ForeignLanguageTextBox.TabIndex = 5;
+            this.txtInostranniiYazik.Location = new System.Drawing.Point(258, 107);
+            this.txtInostranniiYazik.Name = "txtInostranniiYazik";
+            this.txtInostranniiYazik.Size = new System.Drawing.Size(100, 20);
+            this.txtInostranniiYazik.TabIndex = 5;
             // 
-            // HistoryTextBox
+            // txtIstoria
             // 
-            this.HistoryTextBox.Location = new System.Drawing.Point(258, 133);
-            this.HistoryTextBox.Name = "HistoryTextBox";
-            this.HistoryTextBox.Size = new System.Drawing.Size(100, 20);
-            this.HistoryTextBox.TabIndex = 6;
+            this.txtIstoria.Location = new System.Drawing.Point(258, 133);
+            this.txtIstoria.Name = "txtIstoria";
+            this.txtIstoria.Size = new System.Drawing.Size(100, 20);
+            this.txtIstoria.TabIndex = 6;
             // 
-            // SocialStudiesTextBox
+            // txtObchestvo
             // 
-            this.SocialStudiesTextBox.Location = new System.Drawing.Point(258, 159);
-            this.SocialStudiesTextBox.Name = "SocialStudiesTextBox";
-            this.SocialStudiesTextBox.Size = new System.Drawing.Size(100, 20);
-            this.SocialStudiesTextBox.TabIndex = 7;
+            this.txtObchestvo.Location = new System.Drawing.Point(258, 159);
+            this.txtObchestvo.Name = "txtObchestvo";
+            this.txtObchestvo.Size = new System.Drawing.Size(100, 20);
+            this.txtObchestvo.TabIndex = 7;
             // 
-            // GeographyTextBox
+            // txtGeografia
             // 
-            this.GeographyTextBox.Location = new System.Drawing.Point(258, 185);
-            this.GeographyTextBox.Name = "GeographyTextBox";
-            this.GeographyTextBox.Size = new System.Drawing.Size(100, 20);
-            this.GeographyTextBox.TabIndex = 8;
+            this.txtGeografia.Location = new System.Drawing.Point(258, 185);
+            this.txtGeografia.Name = "txtGeografia";
+            this.txtGeografia.Size = new System.Drawing.Size(100, 20);
+            this.txtGeografia.TabIndex = 8;
             // 
-            // AlgebraTextBox
+            // txtAlgebra
             // 
-            this.AlgebraTextBox.Location = new System.Drawing.Point(258, 211);
-            this.AlgebraTextBox.Name = "AlgebraTextBox";
-            this.AlgebraTextBox.Size = new System.Drawing.Size(100, 20);
-            this.AlgebraTextBox.TabIndex = 9;
+            this.txtAlgebra.Location = new System.Drawing.Point(258, 211);
+            this.txtAlgebra.Name = "txtAlgebra";
+            this.txtAlgebra.Size = new System.Drawing.Size(100, 20);
+            this.txtAlgebra.TabIndex = 9;
             // 
-            // LifeSafetyTextBox
+            // txtOBZ
             // 
-            this.LifeSafetyTextBox.Location = new System.Drawing.Point(258, 471);
-            this.LifeSafetyTextBox.Name = "LifeSafetyTextBox";
-            this.LifeSafetyTextBox.Size = new System.Drawing.Size(100, 20);
-            this.LifeSafetyTextBox.TabIndex = 19;
+            this.txtOBZ.Location = new System.Drawing.Point(258, 471);
+            this.txtOBZ.Name = "txtOBZ";
+            this.txtOBZ.Size = new System.Drawing.Size(100, 20);
+            this.txtOBZ.TabIndex = 19;
             // 
-            // GeometryTextBox
+            // txtGeometria
             // 
-            this.GeometryTextBox.Location = new System.Drawing.Point(258, 237);
-            this.GeometryTextBox.Name = "GeometryTextBox";
-            this.GeometryTextBox.Size = new System.Drawing.Size(100, 20);
-            this.GeometryTextBox.TabIndex = 10;
+            this.txtGeometria.Location = new System.Drawing.Point(258, 237);
+            this.txtGeometria.Name = "txtGeometria";
+            this.txtGeometria.Size = new System.Drawing.Size(100, 20);
+            this.txtGeometria.TabIndex = 10;
             // 
-            // ComputerScienceTextBox
+            // txtInformatika
             // 
-            this.ComputerScienceTextBox.Location = new System.Drawing.Point(258, 263);
-            this.ComputerScienceTextBox.Name = "ComputerScienceTextBox";
-            this.ComputerScienceTextBox.Size = new System.Drawing.Size(100, 20);
-            this.ComputerScienceTextBox.TabIndex = 11;
-            this.ComputerScienceTextBox.TextChanged += new System.EventHandler(this.ComputerScienceTextBox_TextChanged);
+            this.txtInformatika.Location = new System.Drawing.Point(258, 263);
+            this.txtInformatika.Name = "txtInformatika";
+            this.txtInformatika.Size = new System.Drawing.Size(100, 20);
+            this.txtInformatika.TabIndex = 11;
+            this.txtInformatika.TextChanged += new System.EventHandler(this.ComputerScienceTextBox_TextChanged);
             // 
-            // PhysicsTextBox
+            // txtFizika
             // 
-            this.PhysicsTextBox.Location = new System.Drawing.Point(258, 289);
-            this.PhysicsTextBox.Name = "PhysicsTextBox";
-            this.PhysicsTextBox.Size = new System.Drawing.Size(100, 20);
-            this.PhysicsTextBox.TabIndex = 12;
+            this.txtFizika.Location = new System.Drawing.Point(258, 289);
+            this.txtFizika.Name = "txtFizika";
+            this.txtFizika.Size = new System.Drawing.Size(100, 20);
+            this.txtFizika.TabIndex = 12;
             // 
-            // BiologyTextBox
+            // txtBiologia
             // 
-            this.BiologyTextBox.Location = new System.Drawing.Point(258, 315);
-            this.BiologyTextBox.Name = "BiologyTextBox";
-            this.BiologyTextBox.Size = new System.Drawing.Size(100, 20);
-            this.BiologyTextBox.TabIndex = 13;
+            this.txtBiologia.Location = new System.Drawing.Point(258, 315);
+            this.txtBiologia.Name = "txtBiologia";
+            this.txtBiologia.Size = new System.Drawing.Size(100, 20);
+            this.txtBiologia.TabIndex = 13;
             // 
-            // ChemistryTextBox
+            // txtHimia
             // 
-            this.ChemistryTextBox.Location = new System.Drawing.Point(258, 341);
-            this.ChemistryTextBox.Name = "ChemistryTextBox";
-            this.ChemistryTextBox.Size = new System.Drawing.Size(100, 20);
-            this.ChemistryTextBox.TabIndex = 14;
+            this.txtHimia.Location = new System.Drawing.Point(258, 341);
+            this.txtHimia.Name = "txtHimia";
+            this.txtHimia.Size = new System.Drawing.Size(100, 20);
+            this.txtHimia.TabIndex = 14;
             // 
-            // VisualArtsTextBox
+            // txtIzobrazitelnoeIskusstvo
             // 
-            this.VisualArtsTextBox.Location = new System.Drawing.Point(258, 367);
-            this.VisualArtsTextBox.Name = "VisualArtsTextBox";
-            this.VisualArtsTextBox.Size = new System.Drawing.Size(100, 20);
-            this.VisualArtsTextBox.TabIndex = 15;
+            this.txtIzobrazitelnoeIskusstvo.Location = new System.Drawing.Point(258, 367);
+            this.txtIzobrazitelnoeIskusstvo.Name = "txtIzobrazitelnoeIskusstvo";
+            this.txtIzobrazitelnoeIskusstvo.Size = new System.Drawing.Size(100, 20);
+            this.txtIzobrazitelnoeIskusstvo.TabIndex = 15;
             // 
-            // MusicTextBox
+            // txtMuzyka
             // 
-            this.MusicTextBox.Location = new System.Drawing.Point(258, 393);
-            this.MusicTextBox.Name = "MusicTextBox";
-            this.MusicTextBox.Size = new System.Drawing.Size(100, 20);
-            this.MusicTextBox.TabIndex = 16;
+            this.txtMuzyka.Location = new System.Drawing.Point(258, 393);
+            this.txtMuzyka.Name = "txtMuzyka";
+            this.txtMuzyka.Size = new System.Drawing.Size(100, 20);
+            this.txtMuzyka.TabIndex = 16;
             // 
-            // TechnologyTextBox
+            // txtTekhnologia
             // 
-            this.TechnologyTextBox.Location = new System.Drawing.Point(258, 419);
-            this.TechnologyTextBox.Name = "TechnologyTextBox";
-            this.TechnologyTextBox.Size = new System.Drawing.Size(100, 20);
-            this.TechnologyTextBox.TabIndex = 17;
+            this.txtTekhnologia.Location = new System.Drawing.Point(258, 419);
+            this.txtTekhnologia.Name = "txtTekhnologia";
+            this.txtTekhnologia.Size = new System.Drawing.Size(100, 20);
+            this.txtTekhnologia.TabIndex = 17;
             // 
-            // PhysicalEducationTextBox
+            // txtFizicheskayaKultura
             // 
-            this.PhysicalEducationTextBox.Location = new System.Drawing.Point(258, 445);
-            this.PhysicalEducationTextBox.Name = "PhysicalEducationTextBox";
-            this.PhysicalEducationTextBox.Size = new System.Drawing.Size(100, 20);
-            this.PhysicalEducationTextBox.TabIndex = 18;
+            this.txtFizicheskayaKultura.Location = new System.Drawing.Point(258, 445);
+            this.txtFizicheskayaKultura.Name = "txtFizicheskayaKultura";
+            this.txtFizicheskayaKultura.Size = new System.Drawing.Size(100, 20);
+            this.txtFizicheskayaKultura.TabIndex = 18;
             // 
             // button1
             // 
@@ -494,25 +494,25 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox RussianTextBox;
-        private System.Windows.Forms.TextBox LiteratureTextBox;
-        private System.Windows.Forms.TextBox NativeLiteratureTextBox;
-        private System.Windows.Forms.TextBox NativeLiteratureText;
-        private System.Windows.Forms.TextBox ForeignLanguageTextBox;
-        private System.Windows.Forms.TextBox HistoryTextBox;
-        private System.Windows.Forms.TextBox SocialStudiesTextBox;
-        private System.Windows.Forms.TextBox GeographyTextBox;
-        private System.Windows.Forms.TextBox AlgebraTextBox;
-        private System.Windows.Forms.TextBox LifeSafetyTextBox;
-        private System.Windows.Forms.TextBox GeometryTextBox;
-        private System.Windows.Forms.TextBox ComputerScienceTextBox;
-        private System.Windows.Forms.TextBox PhysicsTextBox;
-        private System.Windows.Forms.TextBox BiologyTextBox;
-        private System.Windows.Forms.TextBox ChemistryTextBox;
-        private System.Windows.Forms.TextBox VisualArtsTextBox;
-        private System.Windows.Forms.TextBox MusicTextBox;
-        private System.Windows.Forms.TextBox TechnologyTextBox;
-        private System.Windows.Forms.TextBox PhysicalEducationTextBox;
+        private System.Windows.Forms.TextBox txtRusskii;
+        private System.Windows.Forms.TextBox txtLiteratura;
+        private System.Windows.Forms.TextBox txtRodnoiYazik;
+        private System.Windows.Forms.TextBox txtRodnoiLiteratura;
+        private System.Windows.Forms.TextBox txtInostranniiYazik;
+        private System.Windows.Forms.TextBox txtIstoria;
+        private System.Windows.Forms.TextBox txtObchestvo;
+        private System.Windows.Forms.TextBox txtGeografia;
+        private System.Windows.Forms.TextBox txtAlgebra;
+        private System.Windows.Forms.TextBox txtOBZ;
+        private System.Windows.Forms.TextBox txtGeometria;
+        private System.Windows.Forms.TextBox txtInformatika;
+        private System.Windows.Forms.TextBox txtFizika;
+        private System.Windows.Forms.TextBox txtBiologia;
+        private System.Windows.Forms.TextBox txtHimia;
+        private System.Windows.Forms.TextBox txtIzobrazitelnoeIskusstvo;
+        private System.Windows.Forms.TextBox txtMuzyka;
+        private System.Windows.Forms.TextBox txtTekhnologia;
+        private System.Windows.Forms.TextBox txtFizicheskayaKultura;
         private System.Windows.Forms.Button button1;
     }
 }
