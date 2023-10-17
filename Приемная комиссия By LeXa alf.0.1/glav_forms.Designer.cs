@@ -403,7 +403,7 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "Подсчитать средний балл";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtAverageScore
             // 
@@ -674,7 +674,7 @@
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 45F));
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 112F));
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 136F));
             this.tableLayoutPanel11.Controls.Add(this.label14, 0, 0);
             this.tableLayoutPanel11.Controls.Add(this.label11, 4, 0);
             this.tableLayoutPanel11.Controls.Add(this.label23, 2, 0);
@@ -701,7 +701,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(415, 0);
+            this.label11.Location = new System.Drawing.Point(414, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(39, 13);
             this.label11.TabIndex = 0;
@@ -710,7 +710,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(258, 0);
+            this.label23.Location = new System.Drawing.Point(257, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(37, 13);
             this.label23.TabIndex = 2;
@@ -718,14 +718,14 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(303, 3);
+            this.textBox7.Location = new System.Drawing.Point(302, 3);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 3;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(465, 3);
+            this.textBox8.Location = new System.Drawing.Point(464, 3);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 20);
             this.textBox8.TabIndex = 4;
@@ -733,7 +733,7 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(105, 3);
+            this.comboBox2.Location = new System.Drawing.Point(104, 3);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
             this.comboBox2.TabIndex = 5;

@@ -14,7 +14,39 @@ namespace Приемная_комиссия_By_LeXa
 {
     public partial class sred_ball : Form
     {
+        public static int russkii { get; private set; }
+        public static int literatura { get; private set; }
+        public static int rodnoiYazik { get; private set; }
+        public static int rodnoiLiteratura { get; private set; }
+        public static int inostranniiYazik { get; private set; }
+        public static int istoria { get; private set; }
+        public static int obchestvo { get; private set; }
+        public static int geografia { get; private set; }
+        public static int algebra { get; private set; }
+        public static int geometria { get; private set; }
+        public static int informatika { get; private set; }
+        public static int fizika { get; private set; }
+        public static int biologia { get; private set; }
+        public static int himia { get; private set; }
+        public static int izobrazitelnoeIskusstvo { get; private set; }
+        public static int muzyka { get; private set; }
+        public static int tekhnologia { get; private set; }
+        public static int fizicheskayaKultura { get; private set; }
+        public static int obz { get; private set; }
 
+
+        public Dictionary<string, int> GetSubjectsScores()
+        {
+            Dictionary<string, int> subjectsScores = new Dictionary<string, int>
+        {
+            { "russkii", russkii },
+            { "literatura", literatura },
+            { "rodnoiYazik", rodnoiYazik },
+            { "rodnoiLiteratura", rodnoiLiteratura },
+            // Добавьте другие предметы и их оценки сюда
+        };
+            return subjectsScores;
+        }
 
         private string connectionString = "Data Source=DESKTOP-V7FB61F\\SQLEXPRESS;Initial Catalog=RKRIPT;Integrated Security=True";
         public sred_ball()
@@ -56,7 +88,7 @@ namespace Приемная_комиссия_By_LeXa
                                       istoria + obchestvo + geografia + algebra + geometria + informatika +
                                       fizika + biologia + himia + izobrazitelnoeIskusstvo + muzyka + tekhnologia +
                                       fizicheskayaKultura + obz) / 19.0f;
-
+                
                 _averageScore = averageScore; // Сохранение среднего балла в статической переменной
                 DialogResult = DialogResult.OK; // Устанавливаем результат диалога на OK
                 this.Close(); // Закрытие формы CalculateAverageForm после сохранения в базу данных
@@ -107,7 +139,7 @@ namespace Приемная_комиссия_By_LeXa
                     command.Parameters.AddWithValue("@OBZ", Convert.ToInt32(txtOBZ.Text));
                     command.Parameters.AddWithValue("@sredBall", averageScore);
 
-                    int rowsAffected = command.ExecuteNonQuery();
+                    int rowsAffected  = command.ExecuteNonQuery();
                     if (rowsAffected > 0)
                     {
                         MessageBox.Show("Средний балл успешно сохранен в базе данных.");
