@@ -396,7 +396,7 @@
             this.txtInformatika.Name = "txtInformatika";
             this.txtInformatika.Size = new System.Drawing.Size(100, 20);
             this.txtInformatika.TabIndex = 11;
-            this.txtInformatika.TextChanged += new System.EventHandler(this.ComputerScienceTextBox_TextChanged);
+   
             // 
             // txtFizika
             // 

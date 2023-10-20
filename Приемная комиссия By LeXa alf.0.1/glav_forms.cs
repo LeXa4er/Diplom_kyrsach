@@ -39,7 +39,7 @@ namespace Приемная_комиссия_By_LeXa
 
         private void button1_Click(object sender, EventArgs e)
         {
-            sred_ball calculateAverageForm = new sred_ball(subjectsScores);
+            sred_ball calculateAverageForm = new sred_ball();
             DialogResult result = calculateAverageForm.ShowDialog();
 
             // Если результат диалога - OK, сохраняем средний балл в текстовом поле
@@ -74,14 +74,7 @@ namespace Приемная_комиссия_By_LeXa
             string selectedSpecialty3 = comboBoxSpecialty3.SelectedItem.ToString();
 
             // Проверка, что были введены оценки
-            if (string.IsNullOrWhiteSpace(txtAverageScore.Text))
-            {
-                MessageBox.Show("Пожалуйста, введите оценки предметов и нажмите кнопку 'Рассчитать средний балл'.");
-                return;
-            }
-
-            // Создание и открытие формы для ввода оценок
-            sred_ball sredBallForm = new sred_ball(subjectsScores);
+            sred_ball sredBallForm = new sred_ball();
             DialogResult result = sredBallForm.ShowDialog();
 
             if (result == DialogResult.OK)
@@ -110,7 +103,6 @@ namespace Приемная_комиссия_By_LeXa
             }
 
             dataSaved = true;
-
         }
 
         private void SaveToDatabase(string fio, string selectedSpecialty1, string selectedSpecialty2, string selectedSpecialty3, float averageScore)

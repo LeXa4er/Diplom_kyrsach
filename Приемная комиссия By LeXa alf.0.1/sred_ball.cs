@@ -14,35 +14,36 @@ namespace Приемная_комиссия_By_LeXa
 {
     public partial class sred_ball : Form
     {
-        public static int russkii { get; private set; }
-        public static int literatura { get; private set; }
-        public static int rodnoiYazik { get; private set; }
-        public static int rodnoiLiteratura { get; private set; }
-        public static int inostranniiYazik { get; private set; }
-        public static int istoria { get; private set; }
-        public static int obchestvo { get; private set; }
-        public static int geografia { get; private set; }
-        public static int algebra { get; private set; }
-        public static int geometria { get; private set; }
-        public static int informatika { get; private set; }
-        public static int fizika { get; private set; }
-        public static int biologia { get; private set; }
-        public static int himia { get; private set; }
-        public static int izobrazitelnoeIskusstvo { get; private set; }
-        public static int muzyka { get; private set; }
-        public static int tekhnologia { get; private set; }
-        public static int fizicheskayaKultura { get; private set; }
-        public static int obz { get; private set; }
-
-
+        public static int russkii { get; set; }
+        public static int literatura { get; set; }
+        public static int rodnoiYazik { get; set; }
+        public static int rodnoiLiteratura { get; set; }
+        public static int inostranniiYazik { get; set; }
+        public static int istoria { get; set; }
+        public static int obchestvo { get; set; }
+        public static int geografia { get; set; }
+        public static int algebra { get; set; }
+        public static int geometria { get; set; }
+        public static int informatika { get; set; }
+        public static int fizika { get; set; }
+        public static int biologia { get; set; }
+        public static int himia { get;  set; }
+        public static int izobrazitelnoeIskusstvo { get;  set; }
+        public static int muzyka { get;  set; }
+        public static int tekhnologia { get;  set; }
+        public static int fizicheskayaKultura { get;  set; }
+        public static int obz { get;  set; }
+        private Dictionary<string, int> subjectsScores;
+        public float GetAverageScore()
+        {
+            return CalculateAverageScore(); // Ваш метод для расчета среднего балла
+        }
         public Dictionary<string, int> GetSubjectsScores()
         {
             Dictionary<string, int> subjectsScores = new Dictionary<string, int>
         {
             { "russkii", russkii },
             { "literatura", literatura },
-            { "rodnoiYazik", rodnoiYazik },
-            { "rodnoiLiteratura", rodnoiLiteratura },
             // Добавьте другие предметы и их оценки сюда
         };
             return subjectsScores;
@@ -52,44 +53,37 @@ namespace Приемная_комиссия_By_LeXa
         public sred_ball()
         {
             InitializeComponent();
-      
+            subjectsScores = new Dictionary<string, int>();
 
         }
 
 
-        private static float _averageScore;
+        public static float _averageScore;
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                // Получение значений из текстовых полей
-                int russkii = Convert.ToInt32(txtRusskii.Text);
-                int literatura = Convert.ToInt32(txtLiteratura.Text);
-                int rodnoiYazik = Convert.ToInt32(txtRodnoiYazik.Text);
-                int rodnoiLiteratura = Convert.ToInt32(txtRodnoiLiteratura.Text);
-                int inostranniiYazik = Convert.ToInt32(txtInostranniiYazik.Text);
-                int istoria = Convert.ToInt32(txtIstoria.Text);
-                int obchestvo = Convert.ToInt32(txtObchestvo.Text);
-                int geografia = Convert.ToInt32(txtGeografia.Text);
-                int algebra = Convert.ToInt32(txtAlgebra.Text);
-                int geometria = Convert.ToInt32(txtGeometria.Text);
-                int informatika = Convert.ToInt32(txtInformatika.Text);
-                int fizika = Convert.ToInt32(txtFizika.Text);
-                int biologia = Convert.ToInt32(txtBiologia.Text);
-                int himia = Convert.ToInt32(txtHimia.Text);
-                int izobrazitelnoeIskusstvo = Convert.ToInt32(txtIzobrazitelnoeIskusstvo.Text);
-                int muzyka = Convert.ToInt32(txtMuzyka.Text);
-                int tekhnologia = Convert.ToInt32(txtTekhnologia.Text);
-                int fizicheskayaKultura = Convert.ToInt32(txtFizicheskayaKultura.Text);
-                int obz = Convert.ToInt32(txtOBZ.Text);
-
-                // Рассчет среднего балла
-                float averageScore = (russkii + literatura + rodnoiYazik + rodnoiLiteratura + inostranniiYazik +
-                                      istoria + obchestvo + geografia + algebra + geometria + informatika +
-                                      fizika + biologia + himia + izobrazitelnoeIskusstvo + muzyka + tekhnologia +
-                                      fizicheskayaKultura + obz) / 19.0f;
-                
-                _averageScore = averageScore; // Сохранение среднего балла в статической переменной
+                // Получение значений из текстовых полей и сохранение их в статические переменные
+                russkii = Convert.ToInt32(txtRusskii.Text);
+                literatura = Convert.ToInt32(txtLiteratura.Text);
+                rodnoiYazik = Convert.ToInt32(txtRodnoiYazik.Text);
+                rodnoiLiteratura = Convert.ToInt32(txtRodnoiLiteratura.Text);
+                inostranniiYazik = Convert.ToInt32(txtInostranniiYazik.Text);
+                istoria = Convert.ToInt32(txtIstoria.Text);
+                obchestvo = Convert.ToInt32(txtObchestvo.Text);
+                geografia = Convert.ToInt32(txtGeografia.Text);
+                algebra = Convert.ToInt32(txtAlgebra.Text);
+                geometria = Convert.ToInt32(txtGeometria.Text);
+                informatika = Convert.ToInt32(txtInformatika.Text);
+                fizika = Convert.ToInt32(txtFizika.Text);
+                biologia = Convert.ToInt32(txtBiologia.Text);
+                himia = Convert.ToInt32(txtHimia.Text);
+                izobrazitelnoeIskusstvo = Convert.ToInt32(txtIzobrazitelnoeIskusstvo.Text);
+                muzyka = Convert.ToInt32(txtMuzyka.Text);
+                tekhnologia = Convert.ToInt32(txtTekhnologia.Text);
+                fizicheskayaKultura = Convert.ToInt32(txtFizicheskayaKultura.Text);
+                obz = Convert.ToInt32(txtOBZ.Text);
+                _averageScore = CalculateAverageScore(); // Рассчет среднего балла и сохранение его
                 DialogResult = DialogResult.OK; // Устанавливаем результат диалога на OK
                 this.Close(); // Закрытие формы CalculateAverageForm после сохранения в базу данных
             }
@@ -98,10 +92,20 @@ namespace Приемная_комиссия_By_LeXa
                 MessageBox.Show("Произошла ошибка при сохранении среднего балла в базе данных: " + ex.Message);
             }
         }
-        public static float GetAverageScore()
+
+        private float CalculateAverageScore()
         {
-            return _averageScore; // Метод для получения значения среднего балла из других форм
+            // Рассчет среднего балла
+            float totalScore = russkii + literatura + rodnoiYazik + rodnoiLiteratura + inostranniiYazik +
+                              istoria + obchestvo + geografia + algebra + geometria + informatika +
+                              fizika + biologia + himia + izobrazitelnoeIskusstvo + muzyka + tekhnologia +
+                              fizicheskayaKultura + obz;
+            return totalScore / 19.0f;
         }
+        //public static float GetAverageScore()
+        //{
+        //    return _averageScore; // Метод для получения значения среднего балла из других форм
+        //}
         private void ComputerScienceTextBox_TextChanged(object sender, EventArgs e)
         {
 
