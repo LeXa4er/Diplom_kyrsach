@@ -80,13 +80,34 @@ namespace Приемная_комиссия_By_LeXa
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+            if (!AreAllGradesFilled())
+            {
+                MessageBox.Show("Пожалуйста, заполните все оценки перед созданием файла.");
+                return;
+            }
+
             // Получение данных из класса Ozenki
             float averageScore = ozenki.CalculateAverageScore();
             string fio = txtFIO.Text;
-            string selectedSpecialty1 = comboBoxSpecialty1.SelectedItem.ToString();
-            string selectedSpecialty2 = comboBoxSpecialty2.SelectedItem.ToString();
-            string selectedSpecialty3 = comboBoxSpecialty3.SelectedItem.ToString();
+            string selectedSpecialty1 = comboBoxSpecialty1.SelectedItem?.ToString();
+            string selectedSpecialty2 = comboBoxSpecialty2.SelectedItem?.ToString();
+            string selectedSpecialty3 = comboBoxSpecialty3.SelectedItem?.ToString();
 
+            if (selectedSpecialty1 == null || selectedSpecialty2 == null || selectedSpecialty3 == null)
+            {
+                MessageBox.Show("Пожалуйста, выберите специальность во всех трех выпадающих списках.");
+                return;
+            }
+
+            // Проверка на одинаковые специальности
+            if (selectedSpecialty1.Equals(selectedSpecialty2) ||
+                selectedSpecialty1.Equals(selectedSpecialty3) ||
+                selectedSpecialty2.Equals(selectedSpecialty3))
+            {
+                MessageBox.Show("Выберите разные специальности в каждом выпадающем списке.");
+                return;
+            }
             // Путь к рабочему столу пользователя
             string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
@@ -123,6 +144,32 @@ namespace Приемная_комиссия_By_LeXa
 
             // Сохранение текста с оценками в файл Word на рабочем столе
             CreateAndOpenWordDocument(content, filePath);
+        }
+
+        private bool AreAllGradesFilled()
+        {
+            // Создайте экземпляр класса Ozenki и получите значения оценок
+
+            return ozenki.russkii >= 2 && ozenki.russkii <= 5 &&
+             ozenki.literatura >= 2 && ozenki.literatura <= 5 &&
+            ozenki.rodnoiYazik >= 2 && ozenki.rodnoiYazik <= 5 &&
+            ozenki.rodnoiLiteratura >= 2 && ozenki.rodnoiLiteratura <= 5 &&
+            ozenki.inostranniiYazik >= 2 && ozenki.inostranniiYazik <= 5 &&
+            ozenki.istoria >= 2 && ozenki.istoria <= 5 &&
+            ozenki.geografia >= 2 && ozenki.geografia <= 5 &&
+            ozenki.algebra >= 2 && ozenki.algebra <= 5 &&
+            ozenki.geometria >= 2 && ozenki.geometria <= 5 &&
+             ozenki.informatika >= 2 && ozenki.informatika <= 5 &&
+         ozenki.fizika >= 2 && ozenki.fizika <= 5 &&
+         ozenki.biologia >= 2 && ozenki.biologia <= 5 &&
+        ozenki.himia >= 2 && ozenki.himia <= 5 &&
+        ozenki.izobrazitelnoeIskusstvo >= 2 && ozenki.izobrazitelnoeIskusstvo <= 5 &&
+        ozenki.muzyka >= 2 && ozenki.muzyka <= 5 &&
+        ozenki.tekhnologia >= 2 && ozenki.tekhnologia <= 5 &&
+        ozenki.fizicheskayaKultura >= 2 && ozenki.fizicheskayaKultura <= 5 &&
+        ozenki.obz >= 2 && ozenki.obz <= 5 && true;
+            
+
         }
 
         private void CreateAndOpenWordDocument(string content, string filePath)

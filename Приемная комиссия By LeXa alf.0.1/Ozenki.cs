@@ -33,10 +33,15 @@ namespace Приемная_комиссия_By_LeXa
         {
             // Рассчет среднего балла
             totalScore = russkii + literatura + rodnoiYazik + rodnoiLiteratura + inostranniiYazik +
-                              istoria + obchestvo + geografia + algebra + geometria + informatika +
-                              fizika + biologia + himia + izobrazitelnoeIskusstvo + muzyka + tekhnologia +
-                              fizicheskayaKultura + obz;
-            return totalScore /= 19.0f;
+                         istoria + obchestvo + geografia + algebra + geometria + informatika +
+                         fizika + biologia + himia + izobrazitelnoeIskusstvo + muzyka + tekhnologia +
+                         fizicheskayaKultura + obz;
+            totalScore /= 19.0f;
+
+            // Округление до сотых
+            totalScore = (float)Math.Round(totalScore, 2);
+
+            return totalScore;
         }
     }
 }
