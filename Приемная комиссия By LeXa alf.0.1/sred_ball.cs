@@ -162,5 +162,200 @@ namespace Приемная_комиссия_By_LeXa
 				MessageBox.Show("Произошла ошибка при сохранении среднего балла в базе данных: " + ex.Message);
 			}
 		}
-	}
+
+        private void txtRusskii_KeyPress(object sender, KeyPressEventArgs e)
+		{
+            if (int.TryParse(txtRusskii.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtLiteratura_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtLiteratura.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtRodnoiYazik_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtRodnoiYazik.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtRodnoiLiteratura_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtRodnoiLiteratura.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtInostranniiYazik_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+            if (int.TryParse(txtInostranniiYazik.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtIstoria_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtIstoria.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtObchestvo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtObchestvo.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtGeografia_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtGeografia.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtAlgebra_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtAlgebra.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtGeometria_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtGeometria.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtInformatika_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtInformatika.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtFizika_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtFizika.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+      
+
+        private void txtBiologia_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtBiologia.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtHimia_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtHimia.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtIzobrazitelnoeIskusstvo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtIzobrazitelnoeIskusstvo.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtMuzyka_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtMuzyka.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtTekhnologia_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (int.TryParse(txtTekhnologia.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtFizicheskayaKultura_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+            if (int.TryParse(txtFizicheskayaKultura.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+
+        private void txtOBZ_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+            if (int.TryParse(txtOBZ.Text, out int value) && (value < 2 || value > 5))
+            {
+                MessageBox.Show("Оценка должна быть от 2 до 5");
+                txtRusskii.Focus();
+                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+            }
+        }
+    }
 }

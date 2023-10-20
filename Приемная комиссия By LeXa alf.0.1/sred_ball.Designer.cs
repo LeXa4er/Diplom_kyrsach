@@ -319,6 +319,7 @@
             this.txtRusskii.Name = "txtRusskii";
             this.txtRusskii.Size = new System.Drawing.Size(100, 20);
             this.txtRusskii.TabIndex = 1;
+            this.txtRusskii.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRusskii_KeyPress);
             // 
             // txtLiteratura
             // 
@@ -326,6 +327,7 @@
             this.txtLiteratura.Name = "txtLiteratura";
             this.txtLiteratura.Size = new System.Drawing.Size(100, 20);
             this.txtLiteratura.TabIndex = 2;
+            this.txtLiteratura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLiteratura_KeyPress);
             // 
             // txtRodnoiYazik
             // 
@@ -333,6 +335,7 @@
             this.txtRodnoiYazik.Name = "txtRodnoiYazik";
             this.txtRodnoiYazik.Size = new System.Drawing.Size(100, 20);
             this.txtRodnoiYazik.TabIndex = 3;
+            this.txtRodnoiYazik.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRodnoiYazik_KeyPress);
             // 
             // txtRodnoiLiteratura
             // 
@@ -340,6 +343,7 @@
             this.txtRodnoiLiteratura.Name = "txtRodnoiLiteratura";
             this.txtRodnoiLiteratura.Size = new System.Drawing.Size(100, 20);
             this.txtRodnoiLiteratura.TabIndex = 4;
+            this.txtRodnoiLiteratura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRodnoiLiteratura_KeyPress);
             // 
             // txtInostranniiYazik
             // 
@@ -347,6 +351,7 @@
             this.txtInostranniiYazik.Name = "txtInostranniiYazik";
             this.txtInostranniiYazik.Size = new System.Drawing.Size(100, 20);
             this.txtInostranniiYazik.TabIndex = 5;
+            this.txtInostranniiYazik.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtInostranniiYazik_KeyPress);
             // 
             // txtIstoria
             // 
@@ -354,6 +359,7 @@
             this.txtIstoria.Name = "txtIstoria";
             this.txtIstoria.Size = new System.Drawing.Size(100, 20);
             this.txtIstoria.TabIndex = 6;
+            this.txtIstoria.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIstoria_KeyPress);
             // 
             // txtObchestvo
             // 
@@ -361,6 +367,7 @@
             this.txtObchestvo.Name = "txtObchestvo";
             this.txtObchestvo.Size = new System.Drawing.Size(100, 20);
             this.txtObchestvo.TabIndex = 7;
+            this.txtObchestvo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtObchestvo_KeyPress);
             // 
             // txtGeografia
             // 
@@ -368,6 +375,7 @@
             this.txtGeografia.Name = "txtGeografia";
             this.txtGeografia.Size = new System.Drawing.Size(100, 20);
             this.txtGeografia.TabIndex = 8;
+            this.txtGeografia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGeografia_KeyPress);
             // 
             // txtAlgebra
             // 
@@ -375,6 +383,7 @@
             this.txtAlgebra.Name = "txtAlgebra";
             this.txtAlgebra.Size = new System.Drawing.Size(100, 20);
             this.txtAlgebra.TabIndex = 9;
+            this.txtAlgebra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAlgebra_KeyPress);
             // 
             // txtOBZ
             // 
@@ -382,6 +391,7 @@
             this.txtOBZ.Name = "txtOBZ";
             this.txtOBZ.Size = new System.Drawing.Size(100, 20);
             this.txtOBZ.TabIndex = 19;
+            this.txtOBZ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtOBZ_KeyPress);
             // 
             // txtGeometria
             // 
@@ -389,6 +399,7 @@
             this.txtGeometria.Name = "txtGeometria";
             this.txtGeometria.Size = new System.Drawing.Size(100, 20);
             this.txtGeometria.TabIndex = 10;
+            this.txtGeometria.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGeometria_KeyPress);
             // 
             // txtInformatika
             // 
@@ -396,7 +407,7 @@
             this.txtInformatika.Name = "txtInformatika";
             this.txtInformatika.Size = new System.Drawing.Size(100, 20);
             this.txtInformatika.TabIndex = 11;
-   
+            this.txtInformatika.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtInformatika_KeyPress);
             // 
             // txtFizika
             // 
@@ -404,6 +415,7 @@
             this.txtFizika.Name = "txtFizika";
             this.txtFizika.Size = new System.Drawing.Size(100, 20);
             this.txtFizika.TabIndex = 12;
+            this.txtFizika.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFizika_KeyPress);
             // 
             // txtBiologia
             // 
@@ -411,6 +423,7 @@
             this.txtBiologia.Name = "txtBiologia";
             this.txtBiologia.Size = new System.Drawing.Size(100, 20);
             this.txtBiologia.TabIndex = 13;
+            this.txtBiologia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBiologia_KeyPress);
             // 
             // txtHimia
             // 
@@ -418,6 +431,7 @@
             this.txtHimia.Name = "txtHimia";
             this.txtHimia.Size = new System.Drawing.Size(100, 20);
             this.txtHimia.TabIndex = 14;
+            this.txtHimia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHimia_KeyPress);
             // 
             // txtIzobrazitelnoeIskusstvo
             // 
@@ -425,6 +439,7 @@
             this.txtIzobrazitelnoeIskusstvo.Name = "txtIzobrazitelnoeIskusstvo";
             this.txtIzobrazitelnoeIskusstvo.Size = new System.Drawing.Size(100, 20);
             this.txtIzobrazitelnoeIskusstvo.TabIndex = 15;
+            this.txtIzobrazitelnoeIskusstvo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIzobrazitelnoeIskusstvo_KeyPress);
             // 
             // txtMuzyka
             // 
@@ -432,6 +447,7 @@
             this.txtMuzyka.Name = "txtMuzyka";
             this.txtMuzyka.Size = new System.Drawing.Size(100, 20);
             this.txtMuzyka.TabIndex = 16;
+            this.txtMuzyka.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMuzyka_KeyPress);
             // 
             // txtTekhnologia
             // 
@@ -439,6 +455,7 @@
             this.txtTekhnologia.Name = "txtTekhnologia";
             this.txtTekhnologia.Size = new System.Drawing.Size(100, 20);
             this.txtTekhnologia.TabIndex = 17;
+            this.txtTekhnologia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTekhnologia_KeyPress);
             // 
             // txtFizicheskayaKultura
             // 
@@ -446,6 +463,7 @@
             this.txtFizicheskayaKultura.Name = "txtFizicheskayaKultura";
             this.txtFizicheskayaKultura.Size = new System.Drawing.Size(100, 20);
             this.txtFizicheskayaKultura.TabIndex = 18;
+            this.txtFizicheskayaKultura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFizicheskayaKultura_KeyPress);
             // 
             // button1
             // 
