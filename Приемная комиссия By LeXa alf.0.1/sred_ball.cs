@@ -36,7 +36,7 @@ namespace Приемная_комиссия_By_LeXa
         private Dictionary<string, int> subjectsScores;
         public float GetAverageScore()
         {
-            return CalculateAverageScore(); // Ваш метод для расчета среднего балла
+            return CalculateAverageScore(); 
         }
         public Dictionary<string, int> GetSubjectsScores()
         {
@@ -44,7 +44,7 @@ namespace Приемная_комиссия_By_LeXa
         {
             { "russkii", russkii },
             { "literatura", literatura },
-            // Добавьте другие предметы и их оценки сюда
+            
         };
             return subjectsScores;
         }
