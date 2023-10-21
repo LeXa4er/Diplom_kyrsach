@@ -96,3 +96,51 @@ C:\Users\Home-PC\Desktop\Diplom_kyrsach-main\Приемная комиссия B
 C:\Users\Home-PC\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
 C:\Users\Home-PC\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.exe
 C:\Users\Home-PC\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.pdb
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.special.resources
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.sred_ball.resources
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.exe
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.pdb
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe.config
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.pdb
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.dll
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.xml
+D:\lexa\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CopyComplete
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe.config
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.pdb
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.special.resources
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.sred_ball.resources
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CopyComplete
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.exe
+C:\Users\HP\Desktop\Diplom_kyrsach-main\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.pdb
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe.config
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.pdb
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.special.resources
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.sred_ball.resources
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CopyComplete
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.exe
+C:\Users\Harry\Desktop\Новая папка (4)\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.pdb
