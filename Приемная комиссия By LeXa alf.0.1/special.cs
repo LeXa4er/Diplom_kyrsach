@@ -41,7 +41,7 @@ namespace Приемная_комиссия_By_LeXa
             }
         }
 
-        private string connectionString = "Data Source=HOME-PC\\SQLEXPRESS;Initial Catalog=RKRIPT;Integrated Security=True";
+        private string connectionString = "Data Source=LEXA;Initial Catalog=RKRIPT;Integrated Security=True";
         private void button3_Click(object sender, EventArgs e)
         {
             

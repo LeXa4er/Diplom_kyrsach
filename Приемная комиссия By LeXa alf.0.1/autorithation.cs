@@ -18,7 +18,7 @@ namespace Приемная_комиссия_By_LeXa
             InitializeComponent();
         }
         //"Data Source=Le;Initial Catalog=RKRIPT;Integrated Security=True" - сохронил что бы удобно было сервер поменять
-       private string connectionString = "Data Source=HOME-PC\\SQLEXPRESS;Initial Catalog=RKRIPT;Integrated Security=True";
+       private string connectionString = "Data Source=LEXA;Initial Catalog=RKRIPT;Integrated Security=True";
         private void button1_Click(object sender, EventArgs e)
         {
             string login = loginTextBox.Text;
