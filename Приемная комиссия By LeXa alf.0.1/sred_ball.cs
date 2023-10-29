@@ -49,7 +49,7 @@ namespace Приемная_комиссия_By_LeXa
 		//    return subjectsScores;
 		//}
 
-		private string connectionString = "Data Source=DESKTOP-V7FB61F\\SQLEXPRESS;Initial Catalog=RKRIPT;Integrated Security=True";
+		private string connectionString = "Data Source=HOME-PC\\SQLEXPRESS;Initial Catalog=RKRIPT;Integrated Security=True";
 		public sred_ball()
 		{
 			InitializeComponent();
@@ -178,8 +178,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtLiteratura.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtLiteratura.Focus();
+                txtLiteratura.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -188,8 +188,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtRodnoiYazik.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtRodnoiYazik.Focus();
+                txtRodnoiYazik.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -198,8 +198,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtRodnoiLiteratura.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtRodnoiLiteratura.Focus();
+                txtRodnoiLiteratura.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -209,8 +209,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtInostranniiYazik.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtInostranniiYazik.Focus();
+                txtInostranniiYazik.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -219,8 +219,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtIstoria.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtIstoria.Focus();
+                txtIstoria.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -229,8 +229,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtObchestvo.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtObchestvo.Focus();
+                txtObchestvo.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -239,8 +239,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtGeografia.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtGeografia.Focus();
+                txtGeografia.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -249,8 +249,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtAlgebra.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtAlgebra.Focus();
+                txtAlgebra.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -259,8 +259,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtGeometria.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtGeometria.Focus();
+                txtGeometria.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -269,8 +269,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtInformatika.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtInformatika.Focus();
+                txtInformatika.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -279,8 +279,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtFizika.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtFizika.Focus();
+                txtFizika.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -291,8 +291,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtBiologia.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtBiologia.Focus();
+                txtBiologia.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -301,8 +301,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtHimia.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtHimia.Focus();
+                txtHimia.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -311,8 +311,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtIzobrazitelnoeIskusstvo.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtIzobrazitelnoeIskusstvo.Focus();
+                txtIzobrazitelnoeIskusstvo.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -321,8 +321,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtMuzyka.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtMuzyka.Focus();
+                txtMuzyka.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -331,8 +331,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtTekhnologia.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtTekhnologia.Focus();
+                txtTekhnologia.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -342,8 +342,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtFizicheskayaKultura.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtFizicheskayaKultura.Focus();
+                txtFizicheskayaKultura.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
 
@@ -353,8 +353,8 @@ namespace Приемная_комиссия_By_LeXa
             if (int.TryParse(txtOBZ.Text, out int value) && (value < 2 || value > 5))
             {
                 MessageBox.Show("Оценка должна быть от 2 до 5");
-                txtRusskii.Focus();
-                txtRusskii.Text = ""; // Очищаем поле ввода в случае недопустимого значения
+                txtOBZ.Focus();
+                txtOBZ.Text = ""; // Очищаем поле ввода в случае недопустимого значения
             }
         }
     }

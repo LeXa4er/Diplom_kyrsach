@@ -23,7 +23,7 @@ namespace Приемная_комиссия_By_LeXa
     public partial class glav_forms : Form
     {
         private bool dataSaved = false;
-        private string connectionString = "Data Source=DESKTOP-V7FB61F\\SQLEXPRESS;Initial Catalog=RKRIPT;Integrated Security=True";
+        private string connectionString = "Data Source=HOME-PC\\SQLEXPRESS;Initial Catalog=RKRIPT;Integrated Security=True";
      
         public Ozenki ozenki = new Ozenki();
 
@@ -129,16 +129,16 @@ namespace Приемная_комиссия_By_LeXa
                              $"История: {ozenki.istoria}\n" +
                              $"География: {ozenki.geografia}\n" +
                              $"Алгебра: {ozenki.algebra}\n" +
-                             $"Георафия: {ozenki.geometria}\n" +
+                             $"Геометрия: {ozenki.geometria}\n" +
                              $"Информатика: {ozenki.informatika}\n" +
                              $"Физика: {ozenki.fizika}\n" +
                              $"Биология: {ozenki.biologia}\n" +
                              $"Химия: {ozenki.himia}\n" +
-                             $"Изобразительное исскуство: {ozenki.izobrazitelnoeIskusstvo}\n" +
+                             $"Изобразительное искусство: {ozenki.izobrazitelnoeIskusstvo}\n" +
                              $"Музыка: {ozenki.muzyka}\n" +
                              $"Технология: {ozenki.tekhnologia}\n" +
                              $"Физическая культура: {ozenki.fizicheskayaKultura}\n" +
-                             $"Обж: {ozenki.obz}\n" +
+                             $"ОБЖ: {ozenki.obz}\n" +
                              // Добавьте остальные предметы
                              $"\nСредний балл: {averageScore}";
 
