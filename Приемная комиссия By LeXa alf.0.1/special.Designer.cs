@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(special));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            //this.listBox1 = new System.Windows.Forms.ListBox();
             this.listBoxSpecialties = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -38,10 +38,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            //this.textBox1 = new System.Windows.Forms.TextBox();
+            //this.textBox2 = new System.Windows.Forms.TextBox();
+           // this.textBox3 = new System.Windows.Forms.TextBox();
+            //this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtCode = new System.Windows.Forms.TextBox();
             this.txtSeats = new System.Windows.Forms.TextBox();
@@ -68,11 +68,11 @@
             // 
             // listBox1
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(6, 25);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(185, 199);
-            this.listBox1.TabIndex = 0;
+            //this.listBox1.FormattingEnabled = true;
+            //this.listBox1.Location = new System.Drawing.Point(6, 25);
+            //this.listBox1.Name = "listBox1";
+            //this.listBox1.Size = new System.Drawing.Size(185, 199);
+            //this.listBox1.TabIndex = 0;
             // listBoxSpecialties
             // 
             this.listBoxSpecialties.FormattingEnabled = true;
@@ -104,10 +104,10 @@
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label4, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox1, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.textBox2, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox3, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBox1, 1, 3);
+            //this.tableLayoutPanel1.Controls.Add(this.textBox1, 1, 0);
+            //this.tableLayoutPanel1.Controls.Add(this.textBox2, 1, 1);
+            //this.tableLayoutPanel1.Controls.Add(this.textBox3, 1, 2);
+            //this.tableLayoutPanel1.Controls.Add(this.richTextBox1, 1, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 25);
             this.tableLayoutPanel1.Controls.Add(this.txtName, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.txtCode, 1, 1);
@@ -161,10 +161,10 @@
             // 
             // txtName
             // 
-            this.textBox1.Location = new System.Drawing.Point(164, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(179, 20);
-            this.textBox1.TabIndex = 4;
+            //this.textBox1.Location = new System.Drawing.Point(164, 3);
+            //this.textBox1.Name = "textBox1";
+            //this.textBox1.Size = new System.Drawing.Size(179, 20);
+            //this.textBox1.TabIndex = 4;
             this.txtName.Location = new System.Drawing.Point(164, 3);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(132, 20);
@@ -172,10 +172,10 @@
             // 
             // txtCode
             // 
-            this.textBox2.Location = new System.Drawing.Point(164, 29);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(179, 20);
-            this.textBox2.TabIndex = 5;
+            //this.textBox2.Location = new System.Drawing.Point(164, 29);
+            //this.textBox2.Name = "textBox2";
+            //this.textBox2.Size = new System.Drawing.Size(179, 20);
+            //this.textBox2.TabIndex = 5;
             this.txtCode.Location = new System.Drawing.Point(164, 29);
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(132, 20);
@@ -183,10 +183,10 @@
             // 
             // txtSeats
             // 
-            this.textBox3.Location = new System.Drawing.Point(164, 55);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(179, 20);
-            this.textBox3.TabIndex = 6;
+            //this.textBox3.Location = new System.Drawing.Point(164, 55);
+            //this.textBox3.Name = "textBox3";
+            //this.textBox3.Size = new System.Drawing.Size(179, 20);
+            //this.textBox3.TabIndex = 6;
 
             this.txtSeats.Location = new System.Drawing.Point(164, 55);
             this.txtSeats.Name = "txtSeats";
@@ -195,11 +195,11 @@
             // 
             // txtFullName
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(164, 81);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(179, 96);
-            this.richTextBox1.TabIndex = 7;
-            this.richTextBox1.Text = "";
+            //this.richTextBox1.Location = new System.Drawing.Point(164, 81);
+            //this.richTextBox1.Name = "richTextBox1";
+            //this.richTextBox1.Size = new System.Drawing.Size(179, 96);
+            //this.richTextBox1.TabIndex = 7;
+            //this.richTextBox1.Text = "";
             this.txtFullName.Location = new System.Drawing.Point(164, 81);
             this.txtFullName.Name = "txtFullName";
             this.txtFullName.Size = new System.Drawing.Size(132, 96);
