@@ -177,3 +177,20 @@ C:\Users\LeXa\Desktop\Diplom_kyrsach\Приемная комиссия By LeXa a
 C:\Users\LeXa\Desktop\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.dll
 C:\Users\LeXa\Desktop\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.xml
 C:\Users\LeXa\Desktop\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CopyComplete
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe.config
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.exe
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\Приемная комиссия By LeXa.pdb
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.AssemblyReference.cache
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.SuggestedBindingRedirects.cache
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.autorithation.resources
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.glav_forms.resources
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.Properties.Resources.resources
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.special.resources
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная_комиссия_By_LeXa.sred_ball.resources
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.GenerateResource.cache
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CoreCompileInputs.cache
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.csproj.CopyComplete
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.exe
+C:\Users\LeXa\Documents\Diplom_kyrsach\Приемная комиссия By LeXa alf.0.1\obj\Debug\Приемная комиссия By LeXa.pdb

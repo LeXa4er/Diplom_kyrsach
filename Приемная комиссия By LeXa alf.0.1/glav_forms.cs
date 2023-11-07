@@ -13,8 +13,6 @@ using System.Windows.Forms;
 using Word = Microsoft.Office.Interop.Word;
 using System.Data.SqlClient;
 using System.Diagnostics;
-using DocumentFormat.OpenXml.Math;
-using DocumentFormat.OpenXml.Spreadsheet;
 using System.Xml.Linq;
 using Table = Microsoft.Office.Interop.Word.Table;
 
@@ -23,7 +21,7 @@ namespace Приемная_комиссия_By_LeXa
     public partial class glav_forms : Form
     {
         private bool dataSaved = false;
-        private string connectionString = "Data Source=LEXA;Initial Catalog=RKRIPT;Integrated Security=True";
+        private string connectionString = "Data Source=HOME-PC;Initial Catalog=RKRIPT;Integrated Security=True";
      
         public Ozenki ozenki = new Ozenki();
 
