@@ -21,7 +21,7 @@ namespace Приемная_комиссия_By_LeXa
     public partial class glav_forms : Form
     {
         private bool dataSaved = false;
-        private string connectionString = "Data Source=HOME-PC;Initial Catalog=RKRIPT;Integrated Security=True";
+        private string connectionString = "Data Source=HOME-PC\\SQLEXPRESS;Initial Catalog=RKRIPT;Integrated Security=True";
      
         public Ozenki ozenki = new Ozenki();
 

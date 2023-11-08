@@ -49,7 +49,7 @@ namespace Приемная_комиссия_By_LeXa
 		//    return subjectsScores;
 		//}
 
-		private string connectionString = "Data Source=LEXA;Initial Catalog=RKRIPT;Integrated Security=True";
+		private string connectionString = "Data Source=HOME-PC;Initial Catalog=RKRIPT;Integrated Security=True";
 		public sred_ball()
 		{
 			InitializeComponent();
